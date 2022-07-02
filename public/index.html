@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Document</title>
 
 
@@ -15,40 +17,45 @@
 
     <h1>PROJECT BY : SUNDUS ZAKI</h1>
     <div class="main" id="display-main">
+
         <!-- minutes -->
-        <div class="minutes" id="display-minutes">
+        <div class="minutes col-md-4" id="display-minutes">
             <div>
                 <h3>MINUTES</h3>
                 <br />
                 <h3 id="minutes">00</h3>
             </div>
             <div>
-                <button class="start" id="start-button" onclick="start()">Start</button>
+
+                <button type="button" class="btn btn-outline-dark"  onclick="start()">Start</button>
+
             </div>
         </div>
 
 
         <!-- seconds -->
-        <div class="seconds" id="seconds-hours">
+        <div class="seconds col-md-4" id="seconds-hours">
             <div>
                 <h3>SECONDS</h3>
                 <br />
                 <h3 id="seconds">00</h3>
             </div>
             <div>
-                <button class="pause" id="pause-button" onclick="pause()">Pause</button>
+                
+                <button type="button" class="btn btn-outline-dark"  onclick="pause()">Pause</button>
+
             </div>
         </div>
         <!-- mili seconds
          -->
-        <div class="hours" id="display-hours">
+        <div class="hours col-md-4" id="display-hours">
             <div>
                 <h3>MILLISECONDS</h3>
                 <br />
                 <h3 id="milliseconds">00</h3>
             </div>
             <div>
-                <button class="reset" id="reset-button" onclick="reset()">Reset</button>
+                <button type="button" class="btn btn-outline-dark"  onclick="reset()">Reset</button>
             </div>
         </div>
 
